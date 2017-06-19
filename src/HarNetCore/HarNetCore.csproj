@@ -8,6 +8,7 @@
     <Description>This library provides helpful helpers for converting a HTTP Archive (HAR) file to a .NET object. This is a convertion of the older HarNet library to .NET Standard 1.4</Description>
     <Copyright>MIT License</Copyright>
     <PackageLicenseUrl>https://mit-license.org</PackageLicenseUrl>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
