@@ -16,5 +16,5 @@ dotnet: 1.0.4
 dist: trusty
 script:
   - dotnet restore
-  - dotnet pack --include-symbols --configuration "Release" /p:Version=$TRAVIS_TAG
+  - dotnet pack --include-symbols --configuration \"Release\" /p:Version=$TRAVIS_TAG
   - dotnet nuget push .\src\HarNetCore\bin\Release\HarnetCore.$TRAVIS_TAG.nupkg -k $NUGETAPI -s https://nuget.org/
