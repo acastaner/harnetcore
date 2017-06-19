@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Authors>Arnaud Castaner</Authors>
+    <Company />
+    <Product>HarNet</Product>
+    <Description>This library provides helpful helpers for converting a HTTP Archive (HAR) file to a .NET object. This is a convertion of the older HarNet library to .NET Standard 1.4</Description>
+    <Copyright>MIT License</Copyright>
+    <PackageLicenseUrl>https://mit-license.org</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
